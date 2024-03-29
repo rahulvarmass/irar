@@ -8,6 +8,7 @@ import { NotificationComponent } from './notification/notification.component';
 import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { NewcompComponent } from './newcomp/newcomp.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NewcompComponent } from './newcomp/newcomp.component';
     NavComponent,
     NotificationComponent,
     SearchComponent,
-    NewcompComponent
+    NewcompComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule
